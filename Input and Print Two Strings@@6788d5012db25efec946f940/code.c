@@ -4,8 +4,8 @@
 int main() {
     char str1 [20];
     char str2 [20];
-    scanf("%c %c", &str1, &str2);
-    print("You entered: %c and ", str1);
-    print("%c", str2);
+    scanf("%s %s", &str1, &str2);
+    print("You entered: %s and ", str1);
+    print("%s", str2);
     return 0;
 }
