@@ -3,7 +3,7 @@
 
 int main() {
     double a;
-    scanf("%lf", &a);
-    printf("You entered: %lf", a);
+    scanf("%.4flf", &a);
+    printf("You entered: %.4flf", a);
     return 0;
 }
