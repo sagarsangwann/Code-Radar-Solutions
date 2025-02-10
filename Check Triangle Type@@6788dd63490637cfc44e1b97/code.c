@@ -11,11 +11,8 @@ int main() {
         else if(a==b || b==c || a==c){
              printf("Isoceles");
     }
-        else if(!(a==b==c)){
+        else if(!(a==b && a==c && b==c)){
             printf("Scalen");
-    }
-    else{
-        printf("Not a Triangle");
     }
     return 0;
 }
