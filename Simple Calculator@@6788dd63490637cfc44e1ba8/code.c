@@ -5,7 +5,7 @@ int main(){
     int sub = a-b;
     int mul = a*b;
     int div = a/b;
-    scanf("%d %d %c", &a, &b, &ch);
+    scanf("%d %d %*c%c", &a, &b, &ch);
     if(ch == '+'){
         printf("%d", sum);
     }
