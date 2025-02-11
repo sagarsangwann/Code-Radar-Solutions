@@ -9,12 +9,12 @@ int main(){
     else if(ch == '-'){
         printf("%d", a-b);
     }
-    else if(ch == '/' && (!(b==0))){
-        printf("%d", a/b);
-        else if(ch == '/' && b == 0){
+    else if (ch == '/') {
+        if (b != 0)
+            printf("%d", a / b);
+        else
             printf("Error");
-        }
-    }
+    } 
     else if(ch == '*'){
         printf("%d", a*b);
     }
