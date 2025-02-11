@@ -18,6 +18,9 @@ int main(){
     else if(ch == '*'){
         printf("%d", mul);
     }
+    else if (ch == '/' && b == 0){
+    printf("Error");
+    }
     else{
         printf("Error");
     }    
