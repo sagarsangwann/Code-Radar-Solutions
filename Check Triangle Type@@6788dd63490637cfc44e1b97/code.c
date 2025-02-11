@@ -12,7 +12,7 @@ int main() {
              printf("Isoceles");
     }
     else{
-            printf("Scalen");
+            printf("Scalene");
     }
     return 0;
 }
