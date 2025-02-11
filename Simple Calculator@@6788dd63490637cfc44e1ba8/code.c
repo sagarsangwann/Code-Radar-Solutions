@@ -9,7 +9,7 @@ int main(){
     else if(ch == '-'){
         printf("%d", a-b);
     }
-    else if(ch == '/'){
+    else if(ch == '/' && (!(b==0))){
         printf("%d", a/b);
     }
     else if(ch == '*'){
