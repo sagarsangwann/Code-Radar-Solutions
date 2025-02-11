@@ -2,10 +2,13 @@
 int main(){
     int a;
     scanf("%d", &a);
-    if (a%a==0 && a%1==0){
+    if (a == 2 || a == 3 || a == 5 || a == 7){
         printf("Prime");
     }
-    else{
+    else if (a%2 == 0 || a&3 == 0 || a%5 == 0 || a%7 == 0){
         printf("Not Prime");
+    }
+    else{
+        printf("Prime");
     }
 }
