@@ -11,6 +11,9 @@ int main(){
     }
     else if(ch == '/' && (!(b==0))){
         printf("%d", a/b);
+        else if(ch == '/' && b == 0){
+            printf("Invalid");
+        }
     }
     else if(ch == '*'){
         printf("%d", a*b);
