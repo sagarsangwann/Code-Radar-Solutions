@@ -11,5 +11,8 @@ int main(){
     else if(ch == 'G'){
         printf("Go");
     }
+    else{
+        printf("Invalid input");
+    }
     return 0;
 }
