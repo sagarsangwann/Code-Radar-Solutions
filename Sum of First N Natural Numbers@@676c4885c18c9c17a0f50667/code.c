@@ -2,6 +2,7 @@
 int main(){
     int N;
     for(int i=1; i<=N; i++){
-        printf("%d", i);
+        sum += i;
+        printf("%d", sum);
     }
 }
